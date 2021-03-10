@@ -12,3 +12,6 @@ if sexo == 'M':
 
 elif sexo == 'F':
     print('O peso ideal é: ', (62.1 * alt) - 44.7, 'kg')
+
+else:
+    print('Sexo inválido')
