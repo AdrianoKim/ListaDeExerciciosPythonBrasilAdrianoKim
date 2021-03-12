@@ -9,4 +9,4 @@ vel = float(input('Digite a velocidade do link (em Mbps.): '))
 # Conversao de MegaBIT para MegaBYTE por segundo:
 mb = vel * 0.125
 
-print('O tempo aproximado (em minutos) de download será: ', math.ceil((tam/mb)/60), 'minuto(s).')
+print('O tempo aproximado de download será: ', math.ceil((tam/mb)/60), 'minuto(s).')
