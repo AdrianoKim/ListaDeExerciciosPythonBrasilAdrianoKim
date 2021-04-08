@@ -13,7 +13,7 @@ Use uma função que receba um valor n inteiro e imprima até a n-ésima linha.
 def ex1(n):
     for i in range(n):
         i += 1
-        print('{}   '.format(i) * i)
+        print(f'{i}   ' * i)
 
 
 num = int(input('Digite um numero: '))
