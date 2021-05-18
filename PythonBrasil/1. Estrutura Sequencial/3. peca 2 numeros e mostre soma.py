@@ -3,4 +3,4 @@
 num1 = float(input('Digite o primeiro número: '))
 num2 = float(input('Digite o segundo número: '))
 
-print('A soma dos dois números informados é: ', num1 + num2)
+print('A soma dos dois números informados é: ', format(num1 + num2, 'n'))

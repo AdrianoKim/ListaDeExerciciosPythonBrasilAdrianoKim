@@ -29,6 +29,7 @@ inss = salb * 0.1
 fgts = salb * 0.11
 sindicato = salb * 0.03
 
+
 if salb <= 900:
     print('Salário Bruto: (', valor, '*', hr, ') : R$', salb)
     print('(-) IR (Isento)')

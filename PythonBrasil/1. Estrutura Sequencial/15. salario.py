@@ -21,8 +21,8 @@ ir = sal * 0.11
 inss = sal * 0.08
 sindi = sal * 0.05
 
-print('+Salário Bruto: R$', sal)
-print('- IR (11%) : R$', ir)
-print('- INSS (8%) : R$', inss)
-print('- Sindicato ( 5%) : R$', sindi)
-print('= Salário Liquido : R$', sal - (ir + inss + sindi))
+print('+Salário Bruto: R$', '{:.2f}'.format(sal))
+print('- IR (11%) : R$', '{:.2f}'.format(ir))
+print('- INSS (8%) : R$', '{:.2f}'.format(inss))
+print('- Sindicato ( 5%) : R$', '{:.2f}'.format(sindi))
+print('= Salário Liquido : R$', '{:.2f}'.format(sal - (ir + inss + sindi)))

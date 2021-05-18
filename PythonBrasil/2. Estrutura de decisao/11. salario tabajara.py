@@ -13,27 +13,29 @@ o novo salário, após o aumento.
 """
 
 sal = float(input('Digite o valor do sálario:'))
+mony = '{:.2f}'.format
+
 
 if sal <= 280:
-    print('Sálario: R$', sal)
+    print('Sálario: R$', mony(sal))
     print('Aumento de 20%')
-    print('Valor do aumento: R$', sal * 0.2)
-    print('Sálario reajustado: R$', sal * 1.2)
+    print('Valor do aumento: R$', mony(sal * 0.2))
+    print('Sálario reajustado: R$', mony(sal * 1.2))
 
 elif sal <= 281 <= 700:
-    print('Sálario: R$', sal)
+    print('Sálario: R$', mony(sal))
     print('Aumento de 15%')
-    print('Valor do aumento: R$', sal * 0.15)
-    print('Sálario reajustado: R$', sal * 1.15)
+    print('Valor do aumento: R$', mony(sal * 0.15))
+    print('Sálario reajustado: R$', mony(sal * 1.15))
 
 elif sal <= 701 <= 1500:
-    print('Sálario: R$', sal)
+    print('Sálario: R$', mony(sal))
     print('Aumento de 10%')
-    print('Valor do aumento: R$', sal * 0.1)
-    print('Sálario reajustado: R$', sal * 1.1)
+    print('Valor do aumento: R$', mony(sal * 0.1))
+    print('Sálario reajustado: R$', mony(sal * 1.1))
 
 else:
-    print('Sálario: R$', sal)
+    print('Sálario: R$', mony(sal))
     print('Aumento de 5%')
-    print('Valor do aumento: R$', sal * 0.05)
-    print('Sálario reajustado: R$', sal * 1.05)
+    print('Valor do aumento: R$', mony(sal * 0.05))
+    print('Sálario reajustado: R$', mony(sal * 1.05))

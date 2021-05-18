@@ -12,7 +12,7 @@ uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.
 
 import math
 
-val = int(input('Digite o valor do saque (Valor mínimo = R$ 10 | Valor máximo = R$ 600 : '))
+val = int(input('Digite o valor do saque (Valor mínimo = R$ 10 | Valor máximo = R$ 600) : '))
 
 cem = int(math.floor(val/100))
 cinquenta = int(math.floor((val % 100)/50))

@@ -17,6 +17,6 @@ else:
     print('As duas strings tem tamanhos iguais.')
 
 if str1 != str2:
-    print('As duas strings possuem conteúdo diferente.')
+    print('As duas strings possuem conteúdos diferentes.')
 else:
-    print('As duas strings possuem conteúdo igual.')
+    print('As duas strings possuem conteúdos iguais.')

@@ -6,4 +6,4 @@ lado = float(input('Digite o tamanho do lado do quadrado: '))
 
 # Obs.: Fórmula da área do quadrado = lado * lado
 
-print('O dobro da área deste quadrado é: ', (lado * lado) * 2)
+print('O dobro da área deste quadrado é: ', format((lado * lado) * 2, 'n'))

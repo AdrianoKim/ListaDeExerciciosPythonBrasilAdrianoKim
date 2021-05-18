@@ -2,4 +2,4 @@
 
 mt = float(input('Digite o valor em metros: '))
 
-print('O valor convertido em centímetros é: ', mt * 100, 'cm')
+print('O valor convertido em centímetros é: ', format(mt * 100, 'n'), 'cm')
